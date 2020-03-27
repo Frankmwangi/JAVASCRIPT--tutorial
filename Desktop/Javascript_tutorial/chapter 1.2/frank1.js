@@ -132,3 +132,18 @@ return   3.14 * radius**2;
  });
  console.log(html);
  ul.innerHTML = html;*/
+let user = {
+    name: 'crystal',
+    age: 30,
+    email: 'crystal@thenetninja.co.uk',
+    location: 'berlin',
+    blogs:['why mac & cheese rules','10 things to make with marmite']
+
+
+};
+const key = 'location';
+console.log(user[key]);
+console.log(user.email);
+user.age = 35;
+console.log(user.age);
+console.log(user['email']);
